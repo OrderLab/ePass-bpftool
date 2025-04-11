@@ -1,0 +1,14 @@
+#!/bin/bash
+
+cd libbpf/ePass
+git pull
+
+cd ..
+git add .
+git commit -m sync
+git push
+
+cd ..
+git add .
+git commit -m sync
+git push
