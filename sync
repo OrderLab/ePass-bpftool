@@ -4,11 +4,13 @@ cd libbpf/ePass
 git pull
 
 cd ..
+git pull
 git add .
 git commit -m sync
 git push
 
 cd ..
+git pull
 git add .
 git commit -m sync
 git push
