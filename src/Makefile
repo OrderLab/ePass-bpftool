@@ -11,7 +11,7 @@ else
   Q = @
 endif
 
-BPF_DIR = $(srctree)/libbpf/src
+BPF_DIR = $(srctree)/../ePass-libbpf/src
 
 ifneq ($(OUTPUT),)
   _OUTPUT := $(OUTPUT)
